@@ -1,0 +1,36 @@
+.body {
+}
+img {
+  width: 1000px;
+  position: ;
+}
+
+.box {
+  width: 12vw;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  top: 3em;
+  left: 39em;
+}
+
+.box2 {
+  width: 13vw;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  top: -2em;
+  right: -6em;
+}
+
+.box3 {
+  width: 14vw;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  top: -6em;
+  right: -70em;
+}
