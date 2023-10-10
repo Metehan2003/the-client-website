@@ -4,20 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="assets/x-icon" href="/assets/crossmarx logo.png" />
-    <title>Project Footprint and Handprint</title>
+    <title>Project Footprint Handprint</title>
   </head>
+
   <body>
-    <header>
+    <nav class="header">
       <h1>Naam bedrijf</h1>
       <img alt="Logo bedrijf" />
-    </header>
+      <search>
+        <input type="search" />
+      </search>
+    </nav>
 
-    <search>
-      <input type="search" />
-    </search>
-
-    <section>
+    <section class="footprint">
       <h2>Footprint</h2>
       <ul>
         <li>Percentage</li>
@@ -26,7 +25,14 @@
       </ul>
     </section>
 
-    <section>
+    <section class="Status">
+      <h2>Status</h2>
+      <div class="statusbalk">
+        <meter max="100" low="33" high="66" optimum="80" value="40"></meter>
+      </div>
+    </section>
+
+    <section class="handprint">
       <h2>Handprint</h2>
       <ul>
         <li>Percentage</li>
@@ -34,10 +40,6 @@
         <li>Informatie..</li>
       </ul>
     </section>
-
-    <section>
-      <h2>Status</h2>
-      <meter max="100" low="33" high="66" optimum="80" value="40"></meter>
-    </section>
+    <footer>yo</footer>
   </body>
 </html>

@@ -1,29 +1,56 @@
-.box {
-  width: 12vw;
-  border: 5px solid rgb(0, 0, 0);
-  padding: 20px;
-  margin: 10px;
-  position: relative;
-  top: 3em;
-  left: 39em;
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "ft status hp"
+    "footer footer footer";
+  height: 100vh;
+  margin: 0;
 }
 
-.box2 {
-  width: 13vw;
-  border: 5px solid black;
-  padding: 20px;
-  margin: 10px;
-  position: relative;
-  top: -2em;
-  right: -6em;
+.footprint {
+  grid-area: ft;
+  border-right: 1px solid;
 }
 
-.box3 {
-  width: 14vw;
-  border: 5px solid black;
-  padding: 20px;
-  margin: 10px;
-  position: relative;
-  top: -6em;
-  right: -70em;
+.handprint {
+  grid-area: hp;
+  border-left: 1px solid;
+}
+
+.status {
+  grid-area: status;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.statusbalk {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}
+
+.header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+  border-top: 1px solid;
+}
+nav {
+  border-bottom: 1px solid;
+  text-align: center;
+}
+
+nav img {
+  text-align: left;
+}
+h2 {
+  text-align: center;
 }
