@@ -8,22 +8,28 @@ body {
     "footer footer footer";
   height: 100vh;
   margin: 0;
+  background-color: #364152;
 }
 
 .footprint {
   grid-area: ft;
   border-right: 1px solid;
+  background-color: #ff6700;
+  border-radius: 5em;
 }
 
 .handprint {
   grid-area: hp;
   border-left: 1px solid;
+  border-right: 1px solid;
+  border-radius: 5em;
+  background-color: #0cce6b;
 }
 
 .status {
   grid-area: status;
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
 }
 
 .statusbalk {
@@ -41,10 +47,8 @@ body {
 
 footer {
   grid-area: footer;
-  border-top: 1px solid;
 }
 nav {
-  border-bottom: 1px solid;
   text-align: center;
 }
 
