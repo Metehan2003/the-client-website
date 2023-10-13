@@ -12,7 +12,7 @@ Een website maken die als handprint en footrpint tool gebruikt kan worden voor b
   * [Licentie](#licentie)
 
 ## Beschrijving
-![Image (13)](https://github.com/Metehan2003/the-client-website/assets/144008559/6b5b46fe-4046-4709-8926-c45d19ffb0e5)
+![Image (15)](https://github.com/Metehan2003/the-client-website/assets/144008559/2e11332a-8d28-4b09-8586-220c7528862b)
 Een duidelijke overzicht van de handprint en footprint van bedrijven tot 100 personen. 
 Zoek via de searchbar de bedrijven op en krijg informatie over de footprint en handprint van het bedrijf.
 Mijn github page: https://github.com/Metehan2003/the-client-website.
